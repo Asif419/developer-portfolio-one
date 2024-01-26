@@ -18,6 +18,11 @@
     color: #FD6E0A;
 }
 
+section {
+    margin-top: 130px;
+}
+
+/* header and nav style */
 .header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png'), url(../images/developer.png);
@@ -25,7 +30,6 @@
     background-position: bottom right, left;
 }
 
-/* header and nav style */
 
 nav {
     display: flex;
@@ -83,7 +87,6 @@ main {
 /* about section styles */
 
 .about {
-    margin-top: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -91,7 +94,8 @@ main {
 }
 
 .section-title {
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 }
@@ -117,3 +121,30 @@ main {
     font-size: 20px;
     font-weight: 800;
 }
+
+/* what i do styles */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+/* resume styles */
